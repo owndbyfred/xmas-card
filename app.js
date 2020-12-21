@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     snowFlake.style.fontSize = fontsize + 'px';
 
     //Set Snowflake horizontal position
-    let horizontal = Math.floor(Math.random() * 90);
+    let horizontal = Math.floor(Math.random() * 100);
     snowFlakeWrapper.style.left = horizontal + '%';
 
     snowFlakeWrapper.style.top = '-55px';
