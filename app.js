@@ -17,12 +17,14 @@ function createNameDivs(name) {
 }
 
 function getLetterElements() {
-  let arr = [];
-  for (let i = 0; i < name.length; i++) {
-    let letterEle = document.getElementById(`letter-${i}`);
-    arr.push(letterEle);
-  }
-  return arr;
+  return document.querySelectorAll('.letter');
+
+  // let arr = [];
+  // for (let i = 0; i < name.length; i++) {
+  //   let letterEle = document.getElementById(`letter-${i}`);
+  //   arr.push(letterEle);
+  // }
+  // return arr;
 }
 
 function lightUpName(n) {
